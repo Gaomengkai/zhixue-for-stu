@@ -1,4 +1,5 @@
-import getpass
+﻿import getpass
+import os
 
 def show(exam):
     print("+++++++++++++++++++++++++++++++++++++++++++++++")
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     user = str(input("Please input your UserID:"))
     password = str(getpass.getpass("Please input your password:"))
     showTheFuckingProgramAndKickItsAss(user,password)
+    os.system("PAUSE")
